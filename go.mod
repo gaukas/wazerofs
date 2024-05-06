@@ -1,8 +1,8 @@
-module github.com/karelbilek/wazero-fs-tools
+module github.com/gaukas/wazerofs
 
-go 1.22.0
+go 1.21
 
 require (
 	github.com/blang/vfs v1.0.0
-	github.com/tetratelabs/wazero v1.6.0
+	github.com/tetratelabs/wazero v1.7.1
 )

@@ -1,5 +1,7 @@
-# wazero-fs-tools
+# wazerofs
 Helper tools for custom Wazero FS
+
+Forked from [karelbilek/wazero-fs-tools](https://github.com/karelbilek/wazero-fs-tools) for experimental purposes.
 
 Go doc: https://pkg.go.dev/github.com/karelbilek/wazero-fs-tools
 
@@ -32,8 +34,8 @@ import (
     // note: either this or wazero-fs-tools/sysfs needs to be renamed in import
     expsysfs "github.com/tetratelabs/wazero/experimental/sysfs"
     
-    "github.com/karelbilek/wazero-fs-tools/sysfs"
-    "github.com/karelbilek/wazero-fs-tools/wraplogfs"
+    "github.com/gaukas/wazerofs/sysfs"
+    "github.com/gaukas/wazerofs/wraplogfs"
 )
 
 // ...
@@ -58,7 +60,7 @@ import (
     "github.com/tetratelabs/wazero"
     expsysfs "github.com/tetratelabs/wazero/experimental/sysfs"
     
-    "github.com/karelbilek/wazero-fs-tools/memfs"
+    "github.com/gaukas/wazerofs/memfs"
 )
 
 // ...
